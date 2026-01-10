@@ -1,3 +1,4 @@
+# Fastapi-fullstack-task-manager
 This project is a simple full-stack task management application that I built while learning FastAPI
 The goal was to understand how backend APIs, frontend templates, and a database work together in a real application.
 Users can register, log in, and manage their own tasks.
@@ -24,7 +25,6 @@ Database: SQLite
 ORM: SQLAlchemy
 Server: Uvicorn
 
-# PROJECT STRUCTURE:
 
 # Project FastAPI Full-Stack Task Manager
 │
