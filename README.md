@@ -24,9 +24,9 @@ Database: SQLite
 ORM: SQLAlchemy
 Server: Uvicorn
 
-PROJECT STRUCTURE:
+# PROJECT STRUCTURE:
 
-Project FastAPI Full-Stack Task Manager
+# Project FastAPI Full-Stack Task Manager
 │
 ├── main.py              # App entry point
 ├── database.py          # Database connection
@@ -46,19 +46,19 @@ Project FastAPI Full-Stack Task Manager
 │
 ├── static/
 │   └── style.css
-How Authentication Works (Simple Explanation)
+# How Authentication Works (Simple Explanation)
 User logs in using a form
 Backend checks username and password from the database
 If valid, a cookie is set in the browser
 Every request checks the cookie to verify the user
 If not logged in, user is redirected to the login page
-How Tasks Work
+# How Tasks Work
 Logged-in users can add tasks
 Each task is stored with the username as the owner
 When the home page loads, tasks are filtered by the logged-in user
 This ensures users only see their own tasks
 
-HOW TO RUN THE PROJECT
+# HOW TO RUN THE PROJECT
 
 Install dependencies:
 
@@ -70,7 +70,7 @@ Open browser:
 
 http://127.0.0.1:8000
 
-WHAT I LEARNED FROM THIS PROJECT:
+# WHAT I LEARNED FROM THIS PROJECT:
 
 How FastAPI handles requests and responses
 Difference between GET and POST routes
