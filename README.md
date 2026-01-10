@@ -46,7 +46,7 @@ Server: Uvicorn
 │
 ├── static/
 │   └── style.css
-# How Authentication Works (Simple Explanation)
+# How Authentication Works 
 User logs in using a form
 Backend checks username and password from the database
 If valid, a cookie is set in the browser
