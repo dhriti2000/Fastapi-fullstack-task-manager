@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Welcome {{ user }}</h2>
+
+<a href="/add">Add Task</a> |
+<a href="/logout">Logout</a>
+
+<hr>
+
+<ul>
+    {% for todo in todos %}
+    <li>
+        <strong>{{ todo.title }}</strong><br>
+        {{ todo.description }}
+    </li>
+    {% else %}
+    <li>No tasks yet</li>
+    {% endfor %}
+</ul>
+{% endblock %}

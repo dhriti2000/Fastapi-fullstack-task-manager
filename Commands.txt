@@ -1,0 +1,11 @@
+1. Delete the database(if present):
+>> rm task_manager.db
+
+2. Start the server
+>> uvicorn main:app --reload
+
+3. URL	                Output
+  /login	        Login page
+  /register	        Register page
+  /	                HTML page (not Python text)
+  /add	                Add task page
